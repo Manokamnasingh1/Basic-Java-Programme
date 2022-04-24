@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        System.out.println("ENter three no");
+        Scanner sc = new Scanner(System.in);
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        int z=sc.nextInt();
+        if(x>y && x>z){
+            System.out.println("first is large");
+        }else if(y>x && y>z){
+            System.out.println("2");
+        }else if(z>x&&y>x){
+            System.out.println("3 ");
+        }
+    }
+}
