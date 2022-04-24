@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]){
+        System.out.println("enter tem in fah");
+        Scanner sc = new Scanner(System.in);
+        float Fah,Cel;
+        Fah= sc.nextInt();
+        Cel  = ((Fah-32)*5)/9;
+        System.out.println("Temperature in celsius is: "+Cel);
+    }
+}
